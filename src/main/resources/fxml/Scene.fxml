@@ -48,6 +48,12 @@
                   <Insets bottom="5.0" left="230.0" right="5.0" top="5.0" />
                </VBox.margin>
             </Button>
+            <Button fx:id="bottonDelete" mnemonicParsing="false" onAction="#actionDelete" text="Cancella">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="230.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <TextArea fx:id="txtTempiProcesso" prefHeight="116.0" prefWidth="296.0" />
          </children>
       </VBox>
    </center>
